@@ -24,3 +24,13 @@ root = Tk() #The root widget
 my_button = Button(root, text= "Click Here!").pack()
 
 root = mainloop()
+
+# Create Entry widget
+
+from tkinter import*
+
+root = Tk() #The root widget
+
+input_box = Entry(root).pack()
+
+root = mainloop()
